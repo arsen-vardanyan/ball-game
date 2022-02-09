@@ -1,0 +1,35 @@
+/* Variables */
+:root {
+    --canvas-background-color: #353030;
+    --canvas-border-color: #535353;
+
+    --background-color-one: #161616;
+    --background-color-two: rgba(65, 65, 65, 0.2);
+
+    --text-color-snow: snow;
+    --text-color-silver: silver;
+    --text-color-gray: gray;    
+
+    --text-color-red: red;
+    --text-color-red2: rgb(200, 0, 0);
+    --text-color-red3: rgb(150, 0, 0);
+
+    --text-color-green: green;
+
+    --text-color-orange: orange;
+
+    --text-color-purple: #551A8B;
+
+    --text-font-family: Segoe UI;
+}
+
+/* Default values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color-one);
+}

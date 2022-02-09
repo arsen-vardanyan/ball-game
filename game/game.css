@@ -1,0 +1,82 @@
+/* Canvas - [Game] */                           
+div.canvas {
+    background: var(--background-color-two);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--text-color-snow);
+    font-size: 2em;
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    border-radius: 5px;
+}
+
+div.canvas canvas {
+    background: var(--canvas-background-color);
+    border: 3px solid var(--canvas-border-color);
+    z-index: 1;
+}
+
+/* Loader divs - [LOADING] */
+#preloader {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    font-family: var(--text-font-family);
+    color: var(--text-color-silver);
+    font-size: 3em;
+}   
+
+#preloader div {
+    position: relative;
+    background: var(--text-color-red);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    animation: loading 1s linear 0s infinite alternate;
+} 
+
+@keyframes loading {
+    from {left: 0;}
+    to {left: 90%;}
+}
+
+/* [BACK] */
+#back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#back a {
+    color: var(--text-color-snow);
+    font-family: var(--text-font-family);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#back a:hover {
+    color: var(--text-color-silver);
+}
+
+#back a:active {
+    color: var(--text-color-gray);
+}
+
+/* For phones */
+@media screen and (min-width: 200px) and (max-width: 1000px) {
+    div.canvas {
+        width: 300px;
+        height: 600px;
+    }
+    #back {
+        font-size: 100%;
+    }
+}

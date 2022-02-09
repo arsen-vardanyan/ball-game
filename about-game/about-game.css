@@ -1,0 +1,105 @@
+/* Information about game - [HOW TO PLAY and texts] */
+.how-to-play {
+    background: var(--background-color-two);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    margin: 2%;
+    border-radius: 5px;
+}
+
+.how-to-play img[alt="Blue rectangle"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Silver ball"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Purple rectangle"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Orange square"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Black numbers"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Brown numbers"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play img[alt="Red numbers"] {
+    color: var(--text-color-orange);
+}
+
+.how-to-play h1 {
+    color: var(--text-color-green);
+    font-family: var(--text-font-family);
+    padding-bottom: 3%;
+}
+
+.how-to-play ul {
+    color: var(--text-color-snow);
+    font-family: var(--text-font-family);
+}
+
+.how-to-play ul > img {
+    width: 20px;
+    padding-top: 1%;
+}
+
+.how-to-play ul p {
+    padding: 1%;
+}
+
+.how-to-play h5 {
+    color: var(--text-color-green);
+    font-family: var(--text-font-family);
+    text-align: center;
+    padding-top: 5%;
+}
+
+/* Bottom information - [BALL GAME © 2021] */
+footer {
+    display: block;
+    text-align: center;
+    border-top: 1px solid var(--text-color-silver);
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+footer h5 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: var(--text-color-snow);
+    font-family: var(--text-font-family);           
+}   
+
+/* [BACK] */
+#back {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2%;
+}
+
+#back a {
+    color: var(--text-color-snow);
+    font-family: var(--text-font-family);
+    font-size: 1em;
+    text-decoration: none;
+}
+
+#back a:hover {
+    color: var(--text-color-silver);
+}
+
+#back a:active {
+    color: var(--text-color-gray);
+}

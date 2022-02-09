@@ -1,2 +1,1 @@
-# ball-game
-This game is similar to ping pong, but a little different.
+https://arsen-vardanyan.github.io/my-works/ball-game/
